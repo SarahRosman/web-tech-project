@@ -47,6 +47,7 @@ header{
 }
 #motto{
     text-align: center;
+    margin-left: 30px;
     font-family: "inria Serif", serif;
     font-size: 30px;
     letter-spacing: 2px;
