@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Programme</title>
     <link rel="stylesheet" href="programmestyle.css" />
     <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins&display=swap" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -120,13 +119,15 @@ font-family: "Inria Serif", serif;
   margin-top: 40px;
 }
 
-
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
+/* header {
+  background-color: #ffe6f2;
+  padding: 40px;
   text-align: center;
-}
+  margin-bottom: 0;
+  font-style: italic;
+  margin-top: 0;
+  color: black;
+} */
 
 section {
   padding: 20px;
@@ -237,13 +238,14 @@ footer p{
 /* End Contact page */
 
 header{
-    background-color: #ffe6f2;
-  padding: 20px;
+  background-color: #ffe6f2;
+  padding: 40px;
   text-align: center;
   margin-bottom: 0;
   font-style: italic;
   margin-top: 0;
   color: black;
+  font-size: larger;
 }
     </style>
 </head>
@@ -262,14 +264,14 @@ header{
           </div>
       <div id="navi-items">
           <a href="home.html">Home</a>
-          <a href="home.html">Announcement</a>
+          <a href="home.html#Announcement">Announcement</a>
           <div class="dropdown">
               <a href="programmepage.html" class="dropbtn">Programme</a>
               <div class="dropdown-content">
-              <a href="#programme">Student Programme</a>
-              <a href="#campaignpage">Mahallah Campaign</a>
-              <a href="#Awards">Awards</a>
-              </div>
+                <a href="programmepage.html#studentpage">Student Programme</a>
+                <a href="programmepage.html#campaignpage">Mahallah Campaign</a>
+                <a href="programmepage.html#awardpage">Awards</a>
+                </div>
           </div> 
           <a href="./contact page.html">Contact Us</a>
           <a href="./report page.html">Report</a>
@@ -300,7 +302,7 @@ header{
         <p>03-6421 5555<br>03-6421 5554</p>
         <img src="images/mail logo.png" alt="Additional Logo" class="additional-logo">
         <p>osem@iium.edu.my</p>
-        <img src="images/fb logo.png" alt="Additional Logo" class="additional-logo">
+        <a href="https://www.facebook.com/IIUMAUXILIARYPOLICE/"><img src="images/fb logo.png" alt="Additional Logo" class="additional-logo"></a>
         <p>IIUMAUXILIARYPOLICE</p>
     </section>
 
@@ -313,9 +315,10 @@ header{
             <img src="images/iium logo.jpg" alt="IIUM Logo" class="profile-image">
         </div>
 
-        <img src="images/link logo.png" alt="Additional Logo" class="additional-logo">
-        <a href="bit.ly/mahallahmaintenance">bit.ly/mahallahmaintenance</a>
-        <p>Click the link to place your complaint.</p>
+        <!-- <img src="images/link logo.png" alt="Additional Logo" class="additional-logo">
+        <a href="bit.ly/mahallahmaintenance">bit.ly/mahallahmaintenance</a> -->
+        <a href="http://bit.ly/mahallahmaintenance"><img src="images/link logo.png" alt="Additional Logo" class="additional-logo"></a>
+        <p>Click here to place your complaint.</p>
 
         <img src="images/call logo.png" alt="Additional Logo" class="additional-logo">
         <p>03-6421 2169</p>

@@ -233,7 +233,8 @@ body{
   margin: auto;
 }
 .imageslides{
-  height: 490px;
+  /* height: 490px; */
+  height: 400px;
   /* width: 250px; */
 }
 
@@ -313,11 +314,12 @@ h1, p{
 
 .title{
   background-color: #ffe6f2;
-  padding: 20px;
+  padding: 40px;
   text-align: center;
   margin-bottom: 30px;
   font-style: italic;
   margin-top: 50px;
+  font-size: larger;
 }
 body{
   margin: 0;
@@ -363,6 +365,10 @@ body{
 .student-text h2, h3, p{
   padding-bottom: 10px;
 }
+.student-text h2{
+  /* font-weight: 700; */
+  text-transform: uppercase;
+}
 
 .button {
   background-color: #b30059;
@@ -396,7 +402,7 @@ body{
 
 
 #awardpage{
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 div.scroll-container {
