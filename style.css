@@ -4,9 +4,12 @@ body{
     padding-top: 94px;
 }
 header{
+    /* background-color:#f28ddc; */
     background-color:#f28ddc;
     display: flex;
     flex-direction: column;
+    /* height: 505px; */
+    /* padding-top: 50; */
 }
 #header{
     display: flex;
