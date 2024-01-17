@@ -22,8 +22,11 @@
 
         // for button to toggle hide and show
         function show(shown, hidden) {
+        // Set the display style property of the element with id 'shown' to 'block' (making it visible)
         document.getElementById(shown).style.display='block';
+        // Set the display style property of the element with id 'hidden' to 'none' (making it hidden)
         document.getElementById(hidden).style.display='none';
+        // Return false to prevent the default behavior of an HTML element (e.g., a form submission if used in a button within a form)
         return false;
         }
 

@@ -344,12 +344,12 @@ section{
 .container2:hover .overlay {
   opacity: 1;
 }
-#subheader2{
+/* #subheader2{
     display: grid;
     grid-template-columns: auto auto;
     padding: 60px;
     
-}
+} */
 * {box-sizing: border-box}
 
 /* Container needed to position the overlay. Adjust the width as needed */
@@ -432,11 +432,12 @@ section{
 .container4:hover .overlay {
   opacity: 1;
 }
-/* #subheader2{
+#subheader2{
     display: grid;
     grid-template-columns: auto auto;
     padding: 10px;
-} */
+    padding-bottom: 60px;
+}
 /* .container3{
   padding-left: 100px;
 }
